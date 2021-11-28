@@ -1,30 +1,3 @@
-// import React from 'react';
-
-// const SingUpUserPage = () => {
-//   return (
-//     <div>
-//       <h1>Cadastro Usuário</h1>
-//       Nome
-//       telefone
-//       e-mail
-//       Cidade / estado
-
-//       Grupo: pretos, pcd, LGBTQI+, índigena
-
-//       links: Linkedin, portfólio, outros
-
-//       Qual preferência de contato? telefone, e-mail, whatsApp
-
-//       Como prefere ser chamado?
-
-//       Breve descrição e objetivo
-
-//       Upload de CV e foto
-//     </div>
-//   );
-// };
-
-// export default SingUpUserPage;
 import React, { useState } from 'react';
 import useForm from '../../hooks/useForm';
 import { ScreenContainer, InputsContainer, ArrowBackContainer } from './styled';
@@ -38,7 +11,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import { FaAngleLeft } from "react-icons/fa";
+import { FaAngleLeft } from 'react-icons/fa';
 import { goToLogin } from '../../routes/coordinator';
 
 const SignUpUserPage = () => {
@@ -65,7 +38,6 @@ const SignUpUserPage = () => {
     setShowPassword(!showPassword);
   };
 
-  
   return (
     <ScreenContainer>
       <h1>logo</h1>
@@ -272,7 +244,7 @@ const SignUpUserPage = () => {
           type="submit"
           aria-label="ArrowBackIos"
         >
-          <FaAngleLeft/>
+          <FaAngleLeft />
         </IconButton>
       </ArrowBackContainer>
     </ScreenContainer>
