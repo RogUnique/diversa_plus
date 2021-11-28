@@ -2,8 +2,11 @@ export const goToHome = (navigate) => {
   navigate('/');
 };
 
-export const goToLogin = (navigate) => {
-  navigate('/login');
+export const goToLoginUser = (navigate) => {
+  navigate('/loginDeUsuario');
+};
+export const goToLoginCompany = (navigate) => {
+  navigate('/loginDeEmpresa');
 };
 
 export const goToSingUpUser = (navigate) => {

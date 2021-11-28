@@ -12,7 +12,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import { FaAngleLeft } from 'react-icons/fa';
-import { goToLogin } from '../../routes/coordinator';
+import { goToHome } from '../../routes/coordinator';
 
 const SignUpUserPage = () => {
   const [form, onChange, clear] = useForm({
@@ -127,7 +127,7 @@ const SignUpUserPage = () => {
             placeholder={'estado'}
           />
 
-          <FormControl variant="filled">
+          <FormControl fullWidth variant="filled">
             <InputLabel id="grupo" fullWidth margin={'normal'}>
               Grupo
             </InputLabel>
@@ -239,7 +239,7 @@ const SignUpUserPage = () => {
 
       <ArrowBackContainer>
         <IconButton
-          onClick={() => goToLogin(navigate)}
+          onClick={() => goToHome(navigate)}
           size="larger"
           type="submit"
           aria-label="ArrowBackIos"

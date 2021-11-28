@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import { goToLogin } from '../../routes/coordinator';
+import { goToLoginUser, goToLoginCompany } from '../../routes/coordinator';
 import {
   ButtonContainer,
   DescriptionContainer,
@@ -30,11 +30,19 @@ const HomePage = () => {
           fullWidth
           variant={'contained'}
           color={'primary'}
-          onClick={() => goToLogin(navigate)}
+          onClick={() => goToLoginUser(navigate)}
         >
-          Logar
+          Usuário
         </Button>
-       
+
+        <Button
+          fullWidth
+          variant={'contained'}
+          color={'primary'}
+          onClick={() => goToLoginCompany(navigate)}
+        >
+          Empresa
+        </Button>
       </ButtonContainer>
     </HomePageContainer>
   );
