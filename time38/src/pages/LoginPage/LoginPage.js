@@ -1,9 +1,10 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
+import { LoginPageContainer } from './styled';
 
 const LoginPage = () => {
   return (
-    <div>
+    <LoginPageContainer>
       <h1>Login</h1>
       <p>usr</p>
       <p>senha</p>
@@ -13,7 +14,7 @@ const LoginPage = () => {
       <Button variant="contained" color="primary">
         Cadastre-se
       </Button>
-    </div>
+    </LoginPageContainer>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import { goToSingUpUser } from '../../routes/coordinator';
+import { goToLogin } from '../../routes/coordinator';
 import { HomePageContainer } from './styled';
 
 const HomePage = () => {
@@ -14,7 +14,7 @@ const HomePage = () => {
           fullWidth
           variant={'contained'}
           color={'primary'}
-          onClick={() => goToSingUpUser(navigate)}
+          onClick={() => goToLogin(navigate)}
         >
           Usuário
         </Button>
@@ -24,7 +24,7 @@ const HomePage = () => {
           fullWidth
           variant={'contained'}
           color={'primary'}
-          onClick={() => goToSingUpUser(navigate)}
+          onClick={() => goToLogin(navigate)}
         >
           Empresa
         </Button>
