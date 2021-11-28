@@ -4,6 +4,7 @@ import {
   ScreenContainer,
   InputsContainer,
   SignUpButtonContainer,
+  LogoImage,
 } from './styled';
 import { Button, TextField, Typography } from '@material-ui/core';
 import { goToJobs } from '../../routes/coordinator';
@@ -11,6 +12,7 @@ import { goToSingUpUser } from '../../routes/coordinator';
 import { useNavigate } from 'react-router-dom';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
+import logo from '../../assets/logo.jpeg';
 
 const LoginPageUser = () => {
   const navigate = useNavigate();
@@ -27,7 +29,7 @@ const LoginPageUser = () => {
 
   return (
     <ScreenContainer>
-      <h1>LOGO</h1>
+      <LogoImage src={logo} />
       <Typography variant="subtitle1" gutterBottom>
         Entrar
       </Typography>
