@@ -6,10 +6,11 @@ import SingUpUserPage from '../pages/SingUpUserPage/SingUpUserPage';
 import JobsPage from '../pages/JobsPage/JobsPage';
 import CompanyProfilePage from '../pages/CompanyProfilePage/CompanyProfilePage';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
+import HeaderSearchAppBar from '../components/Header/HeaderSearchAppBar';
 
 const RouterPage = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter>    
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />

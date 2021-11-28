@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import React from 'react';
 
 const LoginPage = () => {
@@ -6,7 +7,12 @@ const LoginPage = () => {
       <h1>Login</h1>
       <p>usr</p>
       <p>senha</p>
-      <h1>cadastre-se</h1>
+      <Button variant="contained" color="primary">
+        Login
+      </Button>
+      <Button variant="contained" color="primary">
+        Cadastre-se
+      </Button>
     </div>
   );
 };
