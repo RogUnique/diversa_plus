@@ -168,7 +168,7 @@ $ npm run start
     <td align="center"><a href="https://github.com/osmaren">
       <img src="https://avatars.githubusercontent.com/u/82000434?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Osmar"/>
       <br />
-      <sub><b>Osmar</b></sub>
+      <sub><b>Osmar E. Nothaft</b></sub>
       <br />
     </td>
     <td align="center"><a href="https://github.com/EmanoelABMoraes">
