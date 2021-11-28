@@ -15,14 +15,14 @@ const HomePage = () => {
       <h1>Maiorise</h1>
       <DescriptionContainer>
         <p>
-          Somos a Maiorise , focados em conectar pessoas pertencentes a grupos
+          Somos a Diversa + , focados em conectar pessoas pertencentes a grupos
           minoritários a oportunidades profissionais. Levamos esse nome pois
           sabemos que minoritarias são as chances dadas a estas pessoas, por
           isso, através da nossa plataforma criamos conexões entre estes
           individuos e as empresas que buscam aumentar a diversidade e
-          consequentemente suas capacidades de crescimento. Conheça nossa
-          plataforma:
-        </p>
+          consequentemente suas capacidades de crescimento. 
+         </p> 
+          <p>Conheça nossa  plataforma:</p>
       </DescriptionContainer>
 
       <ButtonContainer>
