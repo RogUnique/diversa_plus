@@ -1,5 +1,12 @@
 import styled from 'styled-components'
 
+export const LogoImage = styled.img`
+  width: 180px;
+  height: 180px;
+  // margin: 20px 18px 16px;
+  object-fit: contain;
+`
+
 export const HomePageContainer = styled.div `
   display: flex;
   flex-direction: column;
@@ -11,10 +18,7 @@ export const HomePageContainer = styled.div `
         margin-top: 15vh;
     }
 `
- export const DescriptionContainer = styled.div`
-    
-
- `
+ export const DescriptionContainer = styled.div``
 
 
 export const ButtonContainer = styled.div `
