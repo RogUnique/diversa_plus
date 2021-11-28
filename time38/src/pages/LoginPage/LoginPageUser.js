@@ -74,8 +74,7 @@ const LoginPageUser = () => {
             fullWidth
             variant={'contained'}
             color={'primary'}
-            // onClick={() => goToJobs(navigate)}
-            onClick={() => goToSingUpUser(navigate)}
+            onClick={() => goToJobs(navigate)}
           >
             Login
           </Button>

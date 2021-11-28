@@ -6,13 +6,15 @@ import {
   ButtonContainer,
   DescriptionContainer,
   HomePageContainer,
+  LogoImage,
 } from './styled';
+import logo from "../../assets/logo.jpeg"
 
 const HomePage = () => {
   const navigate = useNavigate();
   return (
     <HomePageContainer>
-      <h1>Maiorise</h1>
+      <LogoImage src={logo} />      
       <DescriptionContainer>
         <p>
           Somos a Diversa + , focados em conectar pessoas pertencentes a grupos
