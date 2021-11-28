@@ -171,6 +171,12 @@ $ npm run start
       <sub><b>Osmar</b></sub>
       <br />
     </td>
+    <td align="center"><a href="https://github.com/EmanoelABMoraes">
+      <img src="https://avatars.githubusercontent.com/u/85808538?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Emanoel A. B. Moraes"/>
+      <br />
+      <sub><b>Emanoel Moraes</b></sub>
+      <br />
+    </td>
     <td align="center"><a href="https://github.com/RogUnique">
       <img src="https://avatars.githubusercontent.com/u/57589048?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Roger Lemos"/>
       <br />
