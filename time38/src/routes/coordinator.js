@@ -1,19 +1,19 @@
-export const goToHome = (history) => {
-  history.push('/');
+export const goToHome = (navigate) => {
+  navigate('/');
 };
 
-export const goToLogin = (history) => {
-  history.push('/login');
+export const goToLogin = (navigate) => {
+  navigate('/login');
 };
 
-export const goToSingUpUser = (history) => {
-  history.push('/cadastro');
+export const goToSingUpUser = (navigate) => {
+  navigate('/cadastro');
 };
 
-export const goToJobs = (history) => {
-  history.push('/vagas');
+export const goToJobs = (navigate) => {
+  navigate('/vagas');
 };
 
-export const goToCompanyProfile = (history) => {
-  history.push('/empresas');
+export const goToCompanyProfile = (navigate) => {
+  navigate('/empresas');
 };

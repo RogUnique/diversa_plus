@@ -9,7 +9,7 @@ import ErrorPage from '../pages/ErrorPage/ErrorPage';
 
 const RouterPage = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter>    
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
