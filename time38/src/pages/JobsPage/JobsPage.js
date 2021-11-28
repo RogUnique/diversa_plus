@@ -19,11 +19,12 @@ const JobsPage = () => {
               que preferir. Nós realizamos reuniões semanais de acompanhamento
               para organização da semana de trabalho.
             </p>
+            <Button>Aplicar</Button>
           </ItemList>
         </ul>
         <ul key="1">
           <ItemList>
-            <h1>empresa: 'GEDUCA'</h1>
+            <h1>GEDUCA</h1>
             <h3>titulo: 'React Frontend Developer'</h3>
             <h4>contato: 'geduca@geduca.com',</h4>
             <p>
@@ -33,11 +34,11 @@ const JobsPage = () => {
               desafiadores, gerando valor e resultado para os nossos clientes e
               colegas!'
             </p>
-            <Button>Deletar</Button>
+            <Button>Aplicar</Button>
           </ItemList>
 
           <ItemList>
-            <h1>empresa: MPJ Empreendimentos</h1>
+            <h1>MPJ Empreendimentos</h1>
             <h3>titulo: 'Desenvolvedor de back end'</h3>
             <h4>contato: 'mpj@mpj.com'</h4>
             <p>
@@ -45,7 +46,7 @@ const JobsPage = () => {
               nos serviços da plataforma bancária; Validação e revisão de código
               (code review/pair programming)'
             </p>
-            <Button>Deletar</Button>
+            <Button>Aplicar</Button>
           </ItemList>
         </ul>
       </CardList>
