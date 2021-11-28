@@ -6,6 +6,7 @@ import SingUpUserPage from '../pages/SingUpUserPage/SingUpUserPage';
 import JobsPage from '../pages/JobsPage/JobsPage';
 import CompanyProfilePage from '../pages/CompanyProfilePage/CompanyProfilePage';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
+import ProfilesList from '../pages/ProfilesList/ProfilesList';
 
 const RouterPage = () => {
   return (
@@ -16,6 +17,7 @@ const RouterPage = () => {
         <Route path="/cadastro" element={<SingUpUserPage />} />
         <Route path="/vagas" element={<JobsPage />} />
         <Route path="/empresas" element={<CompanyProfilePage />} />
+        <Route path="/profiles" element={<ProfilesList />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
