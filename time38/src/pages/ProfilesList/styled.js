@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const CardList = styled.ul`
-  margin-top: 45px;
+  margin-top: 25px;
   row-gap: 15px;
   column-gap: 20px;
   max-width: 1200px;

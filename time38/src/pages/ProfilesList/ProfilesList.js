@@ -24,7 +24,6 @@ const ProfilesList = () => {
                 <span><Avatar name="Roger Lemos" round="50px"/></span>
                 <span>Teste:</span>
                 <span>Nível:</span>
-                <Button >Deletar</Button>
               </ItemList>
             </ul>
       </CardList>
