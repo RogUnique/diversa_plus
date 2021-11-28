@@ -33,7 +33,7 @@
 
 <!-- PROJECT SOBRE -->
 <h2 id="sobre">:notebook: Sobre </h2>
-<p align="justify">Projeto ....</p>
+<p align="justify">Recebemos o desafio de criar uma solução que melhore a vida de grupos diversos, pensando nisso decidimos iniciar o desenvolvimento de uma plataforma de contratação para esse publico alvo, a Diversa +. Pessoas pertencentes a grupos minoritarios terão seus perfis profissionais divulgados e contarão com acesso as vagas disponibilizadas pelas empresas parceiras que necessitam ampliar a diversidade em suas estrutura alem disso, as organizações terão maior facilidade de encontrar os talentos  diversos.  </p>
 
 <!-- PROJECT SITE -->
 <h2 id="site">:earth_americas: Link do site </h2>
