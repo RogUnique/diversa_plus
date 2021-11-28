@@ -7,6 +7,7 @@ import {
 } from './styled';
 import { Button, TextField, Typography } from '@material-ui/core';
 import { goToJobs } from '../../routes/coordinator';
+import { goToProfilesList } from '../../routes/coordinator';
 import { goToSingUpUser } from '../../routes/coordinator';
 import { useNavigate } from 'react-router-dom';
 import InputAdornment from '@material-ui/core/InputAdornment';
@@ -15,7 +16,6 @@ import IconButton from '@material-ui/core/IconButton';
 const LoginPage = () => {
   const navigate = useNavigate();
   const [form, onChange, clear] = useForm({ email: '', password: '' });
-  const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
   const onClickShowPassword = () => {
@@ -58,6 +58,7 @@ const LoginPage = () => {
                     onClick={onClickShowPassword}
                     onMouseDown={onMouseDownPassword}
                   ></IconButton>
+                  
                 </InputAdornment>
               ),
             }}
@@ -78,7 +79,16 @@ const LoginPage = () => {
             color={'primary'}
             onClick={() => goToJobs(navigate)}
           >
-            Entrar
+            Logar perfil do Usuário
+          </Button>
+          <Button
+            type={'submit'}
+            fullWidth
+            variant={'contained'}
+            color={'primary'}
+            onClick={() => goToProfilesList(navigate)}
+          >
+            Logar perfil da Empresa
           </Button>
         </form>
       </InputsContainer>

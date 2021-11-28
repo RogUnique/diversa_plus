@@ -18,6 +18,6 @@ export const goToCompanyProfile = (navigate) => {
   navigate('/empresas');
 };
 
-export const ProfilesList = (navigate) => {
-  navigate('/profiles');
+export const goToProfilesList = (navigate) => {
+  navigate('/candidatos');
 };

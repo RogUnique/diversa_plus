@@ -17,7 +17,7 @@ const RouterPage = () => {
         <Route path="/cadastro" element={<SingUpUserPage />} />
         <Route path="/vagas" element={<JobsPage />} />
         <Route path="/empresas" element={<CompanyProfilePage />} />
-        <Route path="/profiles" element={<ProfilesList />} />
+        <Route path="/candidatos" element={<ProfilesList />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
