@@ -1,4 +1,5 @@
 import React from 'react';
+import Avatar from 'react-avatar';
 
 import {
   Container,
@@ -7,18 +8,20 @@ import {
   ItemList,
 } from "./styled";
 
-const JobsPage = () => {
+const ProfilesList = () => {
   return (
     <Container>
       <CardList>
       <ul key='1'>
               <ItemList>
+                <span><Avatar githubHandle="RogUnique" round="50px"/></span>
                 <span>Teste:</span>
                 <span>Nível:</span>
               </ItemList>
             </ul>
             <ul key='1'>
               <ItemList>
+                <span><Avatar name="Roger Lemos" round="50px"/></span>
                 <span>Teste:</span>
                 <span>Nível:</span>
                 <Button >Deletar</Button>
@@ -29,4 +32,4 @@ const JobsPage = () => {
   );
 };
 
-export default JobsPage;
+export default ProfilesList;
