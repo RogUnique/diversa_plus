@@ -14,6 +14,7 @@ import { useNavigate } from 'react-router-dom';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
 import logo from '../../assets/logo.jpeg';
+import Footer from '../../components/Footer';
 
 const LoginPageCompany = () => {
   const navigate = useNavigate();
@@ -95,6 +96,7 @@ const LoginPageCompany = () => {
           Não possui cadastro? Clique aqui.
         </Button>
       </SignUpButtonContainer>
+      <Footer/>
     </ScreenContainer>
   );
 };

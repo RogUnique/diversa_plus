@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useForm from '../../hooks/useForm';
-import { ScreenContainer, InputsContainer, ArrowBackContainer } from './styled';
+import { ScreenContainer, InputsContainer, ArrowBackContainer, LogoImage } from './styled';
 import { Button, TextField, Typography } from '@material-ui/core';
 import { useNavigate } from 'react-router-dom';
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -13,6 +13,9 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import { FaAngleLeft } from 'react-icons/fa';
 import { goToHome } from '../../routes/coordinator';
+import Footer from '../../components/Footer';
+import logo from "../../assets/logo.jpeg"
+
 
 const SignUpUserPage = () => {
   const [form, onChange, clear] = useForm({
@@ -40,7 +43,8 @@ const SignUpUserPage = () => {
 
   return (
     <ScreenContainer>
-      <h1>logo</h1>
+           <LogoImage src={logo} />      
+
 
       <Typography variant="subtitle1" gutterBottom>
         Cadastrar
@@ -247,6 +251,7 @@ const SignUpUserPage = () => {
           <FaAngleLeft />
         </IconButton>
       </ArrowBackContainer>
+      <Footer/>
     </ScreenContainer>
   );
 };

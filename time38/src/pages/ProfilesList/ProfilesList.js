@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "react-avatar";
+import Footer from "../../components/Footer";
 
 import { Container, Button, CardList, ItemList } from "./styled";
 
@@ -44,6 +45,7 @@ const ProfilesList = () => {
           <span>Se identifica com o(s) grupo(s):Indígena</span>
         </ItemList>
       </CardList>
+      <Footer/>
     </Container>
   );
 };
