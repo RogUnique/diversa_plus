@@ -27,7 +27,7 @@ const ProfilesList = () => {
         </ItemList>
         <ItemList>
           <span>
-            <Avatar githubHandle="AlecxSilva" round="50px" />
+            <Avatar githubHandle="AlecxSilvaasd" round="50px" />
           </span>
           <span>Alex Silva</span>
           <span>Area de atuação: Marketing Digital</span>
@@ -36,12 +36,12 @@ const ProfilesList = () => {
         </ItemList>
         <ItemList>
           <span>
-            <Avatar githubHandle="CarenMedeiros" round="50px" />
+            <Avatar githubHandle="CarenMedeirosss" round="50px" />
           </span>
-          <span>Caren Medeiros"</span>
+          <span>Caren Medeiros</span>
           <span>Area de atuação:TI - Administradora de Banco de dados</span>
           <span>Contato:carenMedeirosadm@email.com</span>
-          <span>Se identifica com o(s) grupo(s):Indigine</span>
+          <span>Se identifica com o(s) grupo(s):Indígena</span>
         </ItemList>
       </CardList>
     </Container>
