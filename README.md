@@ -24,11 +24,8 @@
 
 <!-- PROJECT LOGO -->
 <h2 id="logo"> :framed_picture:  Logo </h2>
-
-   Logo para fundo escuro            |       Logo para fundo claro:
-:-----------------------------------:|:-----------------------------------:
-<img alt= "Logo" src=""  width="200px" />  |  
-
+  
+<img alt= "Logo" src="https://user-images.githubusercontent.com/78452566/143791807-d9b1c242-e373-48c6-8751-fdfdbc647edf.jpeg"  width="200px" />  |  
 
 
 <!-- PROJECT SOBRE -->
