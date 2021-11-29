@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ErrorPageContainer } from "./styled"
 import { Typography } from "@material-ui/core"
 import Button from "@material-ui/core/Button"
+import Footer from "../../components/Footer";
 import { goToJobs } from "../../routes/coordinator"
 
 const ErrorPage = () => {    

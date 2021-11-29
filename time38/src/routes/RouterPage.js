@@ -18,7 +18,6 @@ const RouterPage = () => {
         <Route path="/loginDeEmpresa" element={<LoginPageCompany />} />
         <Route path="/cadastro" element={<SingUpUserPage />} />
         <Route path="/vagas" element={<JobsPage />} />
-        <Route path="/empresas" element={<CompanyProfilePage />} />
         <Route path="/candidatos" element={<ProfilesList />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

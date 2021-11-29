@@ -17,10 +17,6 @@ export const goToJobs = (navigate) => {
   navigate('/vagas');
 };
 
-export const goToCompanyProfile = (navigate) => {
-  navigate('/empresas');
-};
-
 export const goToProfilesList = (navigate) => {
   navigate('/candidatos');
 };

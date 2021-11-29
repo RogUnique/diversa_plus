@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Container, Button, CardList, Card } from "./styled";
+import Footer from "../../components/Footer";
 
 const JobsPage = () => {
   return (
@@ -52,6 +53,7 @@ const JobsPage = () => {
           <Button>Aplicar</Button>
         </Card>
       </CardList>
+      <Footer/>
     </Container>
   );
 };

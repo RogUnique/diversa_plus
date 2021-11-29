@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
     --orange: #ED8F20;
     --yellow: #F6DD18;
     --green: #057931;
-    --purple: #0013FF;
+    --blue: #0013FF;
+    --purple: #82398C;
 }
     
     /* body, div, ul, button, p, img, nav, a, input, h1, h2, h3, h4, h5, h6, select, figure{
