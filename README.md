@@ -147,13 +147,12 @@ $ npm -v
 ```bash
 # Clone este repositório
 # HTTPS
-$ git clone https://github.com/future4code/maryam-labe-food2.git
+$ https://github.com/RogUnique/diversa_plus.git
 # SSH
-$ git clone git@github.com:future4code/maryam-labe-food2.git
+$ git@github.com:RogUnique/diversa_plus.git
 # CLI
-$ gh repo clone future4code/maryam-labe-food2
-# Acesse a pasta do projeto no terminal
-$ cd ./maryam-labe-food2
+$ gh repo clone RogUnique/diversa_plus
+
 # Instale as dependências
 $ npm install
 $ npm install axios
@@ -162,6 +161,7 @@ $ npm install styled-components
 $ npm install @material-ui/core
 $ npm install @material-ui/icons
 $ npm install react-avatar
+
 # Para iniciar o projeto
 $ npm run start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
