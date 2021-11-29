@@ -62,7 +62,6 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 - [x] Home page;
 - [x] Login;
 - [x] Cadastro;
-- [x] Pesquisa;
 - [x] Vagas;
 - [x] Perfil das Empresas;
 
