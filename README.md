@@ -66,9 +66,9 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 
 
 <!-- PROJECT PENDING-->
-<h2 id="pendente">:construction: Em desenvolvimento</h2>
+<!-- <h2 id="pendente">:construction: Em desenvolvimento</h2>
 
-- Versão Desktop
+- Versão Desktop -->
 
 <!-- PROJECT IMG-->
 <h2 id="imagens">:iphone: Imagens Mobile</h2>
@@ -108,8 +108,6 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 <p float="left">
   <img alt="error" src="https://user-images.githubusercontent.com/78452566/143797913-0036f0c9-c2f2-41ad-8b28-0a0477dcac47.jpeg" width="214" hspace="10"/> 
 </p>
-
-
 
 
 
