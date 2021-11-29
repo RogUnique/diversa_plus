@@ -113,6 +113,7 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 
 <!-- PROJECT GIF-->
 <h2 id="imagens">:iphone: Gif Mobile</h2>
+
 https://user-images.githubusercontent.com/78452566/143798694-0579d208-0ed0-415c-b366-e670c53e5c5e.mp4
 
 
