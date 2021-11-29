@@ -62,6 +62,7 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 - [x] Cadastro;
 - [x] Vagas;
 - [x] Perfil das Empresas;
+- [x] Página de error;
 
 
 <!-- PROJECT PENDING-->
@@ -72,31 +73,58 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 <!-- PROJECT IMG-->
 <h2 id="imagens">:iphone: Imagens Mobile</h2>
 
-- Página de login
+- Página Inicial
 <p float="left">
-  <img alt="login" src="" width="214" hspace="10"/>
-  <img alt="login erro no usuário" src="" width="214" hspace="10"/>
-  <img alt="login erro na senha" src="" width="214" hspace="10"/>  
+  <img alt="home" src="https://user-images.githubusercontent.com/78452566/143797914-842f1b21-2d66-480c-bf48-e82dba7eddba.jpeg" width="214" hspace="10"/
 </p>
 
-- Página de cadastro 
+- Página de login 
 <p float="left">
-  <img alt="cadastro principal" src="" width="214" hspace="10"/>
-  <img alt="cadastro endereço" src="" width="214" hspace="10"/>
+ <img alt="login" src="https://user-images.githubusercontent.com/78452566/143797916-e298676a-03d5-4aea-bcc9-5a93a84f8a5d.jpeg" width="214" hspace="10"/>
 </p>
+
+- Página de vagas 
+<p float="left">
+  <img alt="vagas" src="https://user-images.githubusercontent.com/78452566/143797917-027038ac-1120-4e3a-8fa3-50c675a1ec10.jpeg" width="214" hspace="10"/> 
+</p>
+
+- Página de candidatos 
+<p float="left">
+   <img alt="candidatos" src="https://user-images.githubusercontent.com/78452566/143797912-a610777e-459b-4f62-9332-d4df199bcb9b.jpeg" width="214" hspace="10"/> 
+</p>
+
+- Página de cadastro
+<p float="left">
+   <img alt="cadastro1" src="https://user-images.githubusercontent.com/78452566/143797908-2bd5ef59-f820-478f-9467-0714b188f4d9.jpeg" width="214" hspace="10"/>
+  <img alt="cadastro2" src="https://user-images.githubusercontent.com/78452566/143797911-9ccb9577-c76c-4851-bbba-7ed8b129d234.jpeg" width="214" hspace="10"/> 
+</p>
+
+- Página alerta de cadastro 
+<p float="left">
+  <img alt="alerta de cadastro" src="https://user-images.githubusercontent.com/78452566/143797906-98bc83e1-2fd8-4d5d-a9ad-70b15c44b0e7.jpeg" width="214" hspace="10"/>
+</p>
+
+- Página de error
+<p float="left">
+  <img alt="error" src="https://user-images.githubusercontent.com/78452566/143797913-0036f0c9-c2f2-41ad-8b28-0a0477dcac47.jpeg" width="214" hspace="10"/> 
+</p>
+
+
+
 
 
 <!-- PROJECT GIF-->
 <h2 id="imagens">:iphone: Gif Mobile</h2>
+https://user-images.githubusercontent.com/78452566/143798694-0579d208-0ed0-415c-b366-e670c53e5c5e.mp4
 
 
 
 
 <!-- PROJECT WIREFRAME  -->
-<h2 id="wireframe">:jigsaw: Wireframe</h2>
+<!-- <h2 id="wireframe">:jigsaw: Wireframe</h2>
   <div align="center">
     <img alt="Wireframe" src="" />
-  </div>
+  </div> -->
 
 
 <!-- PROJECT REQUIREMENTS-->
@@ -134,6 +162,7 @@ $ npm install react-router-dom
 $ npm install styled-components
 $ npm install @material-ui/core
 $ npm install @material-ui/icons
+$ npm install react-avatar
 # Para iniciar o projeto
 $ npm run start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
