@@ -116,11 +116,18 @@ Abaixo segue o que foi utilizado na criação deste projeto:
   <img alt="error" src="https://user-images.githubusercontent.com/78452566/143797913-0036f0c9-c2f2-41ad-8b28-0a0477dcac47.jpeg" width="214" hspace="10"/> 
 </p>
 
+<!-- PROJECT Arquivo-->
+<h2 id="pdf">:iphone: Arquivo PDF</h2>
+[2021_[PROVIHACK]_DIVERSA+.pdf](https://github.com/RogUnique/diversa_plus/files/7615290/2021_.PROVIHACK._DIVERSA%2B.pdf)
+
+
+<!-- PROJECT YouTube-->
+<h2 id="youtube">:iphone: YouTube</h2>
+https://www.youtube.com/watch?v=TKhmPpDZMS4
 
 
 <!-- PROJECT GIF-->
 <h2 id="imagens">:iphone: Gif Mobile</h2>
-
 https://user-images.githubusercontent.com/78452566/143798694-0579d208-0ed0-415c-b366-e670c53e5c5e.mp4
 
 
