@@ -52,9 +52,12 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 <!-- <p>🔗 <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces" target="_blank"> API </a> - API é um conjunto de definições e protocolos usado no desenvolvimento e na integração de software de aplicações. API é um acrônimo em inglês que significa interface de programação de aplicações.</p> -->
 <p>🔗 <a href="https://www.totvs.com/blog/negocios/kanban/" target="_blank"> Metodologias Ágeis - Kanban </a> -Kanban é um sistema visual de gestão de trabalho, que busca conduzir cada tarefa por um fluxo predefinido de trabalho.</p>
 <p>🔗 <a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-2.0.pdf" target="_blank"> Metodologias Ágeis - Scrum </a> - Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor através de soluções adaptativas para problemas complexos.</p>
-miro
-surge
-marvel
+
+<p>🔗 <a href="https://surge.sh/help/getting-started-with-surge" target="_blank"> Surge </a> - Surge foi desenvolvido do zero para publicação de aplicativos da web nativos e tem o compromisso de ser a melhor maneira para os desenvolvedores de front-end colocarem aplicativos HTML5 em produção.</p>
+<p>🔗 <a href="https://marvelapp.com/" target="_blank"> Marvel </a> - O Marvel permite transformar qualquer esboço em uma demonstração do aplicativo em questão de minutos; basta colocar suas telas em papel, depois tire uma foto com o Marvel para uni-los e formar seu protótipo. ... Junte-se a quase 60.000 outras pessoas e comece a dar vida às suas ideias.</p>
+<p>🔗 <a href="https://miro.com/app/dashboard/" target="_blank"> Miro </a> - Miro é uma plataforma online que vai ajudar você na construção de mapas mentais, diagramas e quadros com notas. Tudo em tempo real e em colaboração com quem você quiser.</p>
+
+
 
 <!-- PROJECT IT WORKS-->
 <h2 id="funciona">:heavy_check_mark: O que funciona</h2>
