@@ -12,6 +12,7 @@ export const HomePageContainer = styled.div `
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  color: var(--primaryColor);
   max-width: 350px;
     
     button { 
