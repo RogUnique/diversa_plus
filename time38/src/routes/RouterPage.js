@@ -5,7 +5,6 @@ import LoginPageUser from '../pages/LoginPage/LoginPageUser';
 import LoginPageCompany from '../pages/LoginPage/LoginPageCompany';
 import SingUpUserPage from '../pages/SingUpUserPage/SingUpUserPage';
 import JobsPage from '../pages/JobsPage/JobsPage';
-import CompanyProfilePage from '../pages/CompanyProfilePage/CompanyProfilePage';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import ProfilesList from '../pages/ProfilesList/ProfilesList';
 

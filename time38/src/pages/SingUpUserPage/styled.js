@@ -6,6 +6,7 @@ export const ScreenContainer = styled.div`
   flex-direction: column;
   align-items: center; 
   width: 100vw; 
+  color: var(--primaryColor)
 `
 
 export const InputsContainer = styled.div`
@@ -34,3 +35,10 @@ export const ArrowBackContainer = styled.div`
 export const Select = styled.div`
   width: 80vw;
 `;
+
+export const LogoImage = styled.img`
+  width: 180px;
+  height: 180px;
+  margin: 20px 18px 16px;
+  object-fit: contain;
+`

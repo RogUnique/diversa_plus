@@ -9,6 +9,8 @@ import {
   LogoImage,
 } from './styled';
 import logo from "../../assets/logo.jpeg"
+import Footer from '../../components/Footer';
+
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -46,6 +48,7 @@ const HomePage = () => {
           Empresa
         </Button>
       </ButtonContainer>
+      <Footer/>
     </HomePageContainer>
   );
 };
