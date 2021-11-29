@@ -1,19 +1,18 @@
-import React, { useState } from "react";
-import useForm from "../../hooks/useForm";
-import { ScreenContainer, InputsContainer, ArrowBackContainer } from "./styled";
-import { Button, TextField, Typography } from "@material-ui/core";
-import { useNavigate } from "react-router-dom";
-import CircularProgress from "@material-ui/core/CircularProgress";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import IconButton from "@material-ui/core/IconButton";
-import { goToJobs } from "../../routes/coordinator";
-import InputLabel from "@material-ui/core/InputLabel";
-import MenuItem from "@material-ui/core/MenuItem";
-import FormControl from "@material-ui/core/FormControl";
-import Select from "@material-ui/core/Select";
-import { FaAngleLeft } from "react-icons/fa";
-import { goToLogin } from "../../routes/coordinator";
-
+import React, { useState } from 'react';
+import useForm from '../../hooks/useForm';
+import { ScreenContainer, InputsContainer, ArrowBackContainer } from './styled';
+import { Button, TextField, Typography } from '@material-ui/core';
+import { useNavigate } from 'react-router-dom';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import IconButton from '@material-ui/core/IconButton';
+import { goToJobs } from '../../routes/coordinator';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+import { FaAngleLeft } from 'react-icons/fa';
+import { goToHome } from '../../routes/coordinator';
 
 const SignUpUserPage = () => {
   const [form, onChange, clear] = useForm({
@@ -128,8 +127,8 @@ const SignUpUserPage = () => {
             placeholder={"estado"}
           />
 
-          <FormControl variant="filled" fullWidth>
-            <InputLabel id="grupo" fullWidth margin={"normal"}>
+          <FormControl fullWidth variant="filled">
+            <InputLabel id="grupo" fullWidth margin={'normal'}>
               Grupo
             </InputLabel>
 
@@ -240,7 +239,7 @@ const SignUpUserPage = () => {
 
       <ArrowBackContainer>
         <IconButton
-          onClick={() => goToLogin(navigate)}
+          onClick={() => goToHome(navigate)}
           size="larger"
           type="submit"
           aria-label="ArrowBackIos"

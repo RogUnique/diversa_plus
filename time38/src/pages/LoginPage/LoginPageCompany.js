@@ -4,6 +4,7 @@ import {
   ScreenContainer,
   InputsContainer,
   SignUpButtonContainer,
+  LogoImage,
 } from './styled';
 import { Button, TextField, Typography } from '@material-ui/core';
 import { goToJobs } from '../../routes/coordinator';
@@ -12,8 +13,9 @@ import { goToSingUpUser } from '../../routes/coordinator';
 import { useNavigate } from 'react-router-dom';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
+import logo from '../../assets/logo.jpeg';
 
-const LoginPage = () => {
+const LoginPageCompany = () => {
   const navigate = useNavigate();
   const [form, onChange, clear] = useForm({ email: '', password: '' });
   const [showPassword, setShowPassword] = useState(false);
@@ -28,7 +30,7 @@ const LoginPage = () => {
 
   return (
     <ScreenContainer>
-      <h1>LOGO</h1>
+      <LogoImage src={logo} />
       <Typography variant="subtitle1" gutterBottom>
         Entrar
       </Typography>
@@ -58,7 +60,6 @@ const LoginPage = () => {
                     onClick={onClickShowPassword}
                     onMouseDown={onMouseDownPassword}
                   ></IconButton>
-                  
                 </InputAdornment>
               ),
             }}
@@ -77,18 +78,9 @@ const LoginPage = () => {
             fullWidth
             variant={'contained'}
             color={'primary'}
-            onClick={() => goToJobs(navigate)}
-          >
-            Logar perfil do Usuário
-          </Button>
-          <Button
-            type={'submit'}
-            fullWidth
-            variant={'contained'}
-            color={'primary'}
             onClick={() => goToProfilesList(navigate)}
           >
-            Logar perfil da Empresa
+            Login
           </Button>
         </form>
       </InputsContainer>
@@ -107,4 +99,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default LoginPageCompany;
