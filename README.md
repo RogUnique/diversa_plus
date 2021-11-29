@@ -52,6 +52,9 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 <!-- <p>🔗 <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces" target="_blank"> API </a> - API é um conjunto de definições e protocolos usado no desenvolvimento e na integração de software de aplicações. API é um acrônimo em inglês que significa interface de programação de aplicações.</p> -->
 <p>🔗 <a href="https://www.totvs.com/blog/negocios/kanban/" target="_blank"> Metodologias Ágeis - Kanban </a> -Kanban é um sistema visual de gestão de trabalho, que busca conduzir cada tarefa por um fluxo predefinido de trabalho.</p>
 <p>🔗 <a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-2.0.pdf" target="_blank"> Metodologias Ágeis - Scrum </a> - Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor através de soluções adaptativas para problemas complexos.</p>
+miro
+surge
+marvel
 
 <!-- PROJECT IT WORKS-->
 <h2 id="funciona">:heavy_check_mark: O que funciona</h2>
@@ -155,17 +158,25 @@ $ gh repo clone RogUnique/diversa_plus
 
 # Instale as dependências
 $ npm install
-$ npm install axios
-$ npm install react-router-dom
-$ npm install styled-components
-$ npm install @material-ui/core
-$ npm install @material-ui/icons
-$ npm install react-avatar
+    ou
+$ yarn
 
 # Para iniciar o projeto
 $ npm run start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+
+<!-- PROJECT Mentor-->
+<h2 id="mentor">:construction_worker: Mentoria</h2>
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/luktenorio">
+      <img src="https://avatars.githubusercontent.com/u/8172545?v=4" style="border-radius: 50%" width="100px" alt="Imagem do perfil de Argleydson Leão"/>
+      <br />
+      <sub><b>Lucas Tenório</b></sub>
+      <br />
+    </td>
+ </table>
 
 <!-- PROJECT DEVELOPERS-->
 <h2 id="desenvolvedores">:construction_worker: Desenvolvedores</h2>   
