@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     --purple: #0013FF;
 }
     
-    body, div, ul, button, p, img, nav, a, input, h1, h2, h3, h4, h5, h6, select, figure{
+    /* body, div, ul, button, p, img, nav, a, input, h1, h2, h3, h4, h5, h6, select, figure{
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -39,11 +39,11 @@ const GlobalStyle = createGlobalStyle`
 
     h4 {
         font-size: 20px;
-    }
+    } */
 
-    button{
+    /* button{
         cursor: pointer;
-    }
+    } */
     `;
 
 export default GlobalStyle;

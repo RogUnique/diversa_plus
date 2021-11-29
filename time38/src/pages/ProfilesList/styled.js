@@ -5,9 +5,11 @@ export const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  color: var(--primaryColor)
 `;
 
 export const CardList = styled.ul`
+  padding-left: 0;
   margin-top: 25px;
   row-gap: 15px;
   column-gap: 20px;
