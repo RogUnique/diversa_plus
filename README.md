@@ -18,7 +18,8 @@
   <a href="#pendente">Pendências</a> &#xa0; | &#xa0;
   <a href="#imagens">Imagens</a> &#xa0; | &#xa0;  
   <a href="#wireframe"> Wireframe</a> &#xa0; | &#xa0;
-  <a href="#requisitos">Pré requisitos</a> &#xa0; | &#xa0;   
+  <a href="#requisitos">Pré requisitos</a> &#xa0; | &#xa0; 
+  <a href="#mentoria">Mentor</a> &#xa0; | &#xa0;
   <a href="#desenvolvedores">Desenvolvedores</a> &#xa0; 
 </p>
 
@@ -170,7 +171,7 @@ $ npm run start
 ```
 
 <!-- PROJECT Mentor-->
-<h2 id="mentor">:construction_worker: Mentoria</h2>
+<h2 id="mentoria">:construction_worker: Mentoria</h2>
 <table>
   <tr>
     <td align="center"><a href="https://github.com/luktenorio">
