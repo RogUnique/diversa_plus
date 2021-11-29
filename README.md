@@ -34,7 +34,7 @@
 
 <!-- PROJECT SITE -->
 <h2 id="site">:earth_americas: Link do site </h2>
-<p>🔗 <a href="" target="_blank"> time38 </a>  </p>
+<p>🔗 <a href="https://diversa.surge.sh/" target="_blank"> Diversa+ </a>  </p>
 
 
 <!-- PROJECT TECHNOLOGIES -->
