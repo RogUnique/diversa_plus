@@ -5,6 +5,8 @@ export const ScreenContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100vw;
+  color: var(--primaryColor);
+
 `;
 
 export const LogoImage = styled.img`
