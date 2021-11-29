@@ -42,6 +42,7 @@
 
 Abaixo segue o que foi utilizado na criação deste projeto:
 
+<p>🔗 <a href="https://code.visualstudio.com/" target="_blank"> VSCode </a> - O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.</p>
 <p>🔗 <a href="https://pt-br.reactjs.org/" target="_blank"> ReactJS </a> - O ReactJS é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”. </p>
 <p>🔗 <a href="https://styled-components.com/" target="_blank"> Styled-Components <a/> - Styled-components é uma biblioteca para React e React Native que permite que você use estilos ao nível de componente na sua aplicação. Eles são escritos em uma mistura de JavaScript com CSS.</p>
 <p>🔗 <a href="https://mui.com/pt/" target="_blank"> Material-UI </a> - O Material-UI fornece um componente opcional CssBaseline. Ele corrige algumas inconsistências nos navegadores e dispositivos, ao mesmo tempo em que fornece redefinições ligeiramente mais opinativas para elementos HTML comuns.</p>
