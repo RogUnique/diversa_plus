@@ -16,15 +16,15 @@ import { goToHome } from '../../routes/coordinator';
 
 const SignUpUserPage = () => {
   const [form, onChange, clear] = useForm({
-    name: '',
-    email: '',
-    cpf: '',
-    telefone: '',
-    cidade: '',
-    estado: '',
-    password: '',
-    links: '',
-    chooseName: '',
+    name: "",
+    email: "",
+    cpf: "",
+    telefone: "",
+    cidade: "",
+    estado: "",
+    password: "",
+    links: "",
+    chooseName: "",
   });
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
@@ -49,91 +49,91 @@ const SignUpUserPage = () => {
       <InputsContainer>
         <form>
           <TextField
-            name={'name'}
+            name={"name"}
             value={form.name}
             onChange={onChange}
-            label={'Nome'}
-            variant={'outlined'}
+            label={"Nome"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'text'}
-            placeholder={'Nome e sobrenome'}
+            type={"text"}
+            placeholder={"Nome e sobrenome"}
           />
 
           <TextField
-            name={'email'}
+            name={"email"}
             value={form.email}
             onChange={onChange}
-            label={'E-mail'}
-            variant={'outlined'}
+            label={"E-mail"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'email'}
-            placeholder={'email@email.com'}
+            type={"email"}
+            placeholder={"email@email.com"}
           />
 
           <TextField
-            name={'cpf'}
+            name={"cpf"}
             value={form.cpf}
             onChange={onChange}
-            label={'CPF'}
-            variant={'outlined'}
+            label={"CPF"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'number'}
-            placeholder={'000.000.000-00 (apenas números)'}
-            inputProps={{ pattern: '^d{3}.d{3}.d{3}-d{2}$' }}
+            type={"number"}
+            placeholder={"000.000.000-00 (apenas números)"}
+            inputProps={{ pattern: "^d{3}.d{3}.d{3}-d{2}$" }}
           />
 
           <TextField
-            name={'telefone'}
+            name={"telefone"}
             value={form.telefone}
             onChange={onChange}
-            label={'telefone'}
-            variant={'outlined'}
+            label={"telefone"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'number'}
-            placeholder={'(00)0-0000-0000 (apenas números)'}
+            type={"number"}
+            placeholder={"(00)0-0000-0000 (apenas números)"}
           />
 
           <TextField
-            name={'cidade'}
+            name={"cidade"}
             value={form.cidade}
             onChange={onChange}
-            label={'cidade'}
-            variant={'outlined'}
+            label={"cidade"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'text'}
-            placeholder={'cidade'}
+            type={"text"}
+            placeholder={"cidade"}
           />
 
           <TextField
-            name={'estado'}
+            name={"estado"}
             value={form.estado}
             onChange={onChange}
-            label={'estado'}
-            variant={'outlined'}
+            label={"estado"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'text'}
-            placeholder={'estado'}
+            type={"text"}
+            placeholder={"estado"}
           />
 
           <FormControl fullWidth variant="filled">
             <InputLabel id="grupo" fullWidth margin={'normal'}>
               Grupo
             </InputLabel>
-            <Select labelId="Grupo" id="grupo">
+
+            <Select value={10} labelId="Grupo" id="grupo">
               <MenuItem value="">
-                <em>None</em>
               </MenuItem>
               <MenuItem value={10}>Preto</MenuItem>
               <MenuItem value={20}>LGBTQI+</MenuItem>
@@ -142,43 +142,43 @@ const SignUpUserPage = () => {
           </FormControl>
 
           <TextField
-            name={'links'}
+            name={"links"}
             value={form.links}
             onChange={onChange}
-            label={'links'}
-            variant={'outlined'}
+            label={"links"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'text'}
-            placeholder={'Linkedin, portfólio, outros'}
+            type={"text"}
+            placeholder={"Linkedin, portfólio, outros"}
           />
 
           <TextField
-            name={'Como prefere ser chamado?'}
+            name={"Como prefere ser chamado?"}
             value={form.chooseName}
             onChange={onChange}
-            label={'Como prefere ser chamado'}
-            variant={'outlined'}
+            label={"Como prefere ser chamado"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={'text'}
-            placeholder={'Como prefere ser chamado?'}
+            type={"text"}
+            placeholder={"Como prefere ser chamado?"}
           />
 
           <TextField
-            name={'password'}
+            name={"password"}
             value={form.password}
             onChange={onChange}
-            label={'Senha'}
-            variant={'outlined'}
+            label={"Senha"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={showPassword ? 'text' : 'password'}
-            placeholder={'Mínimo de 6 caracteres'}
-            inputProps={{ pattern: '^.{6,}' }}
+            type={showPassword ? "text" : "password"}
+            placeholder={"Mínimo de 6 caracteres"}
+            inputProps={{ pattern: "^.{6,}" }}
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
@@ -193,17 +193,17 @@ const SignUpUserPage = () => {
           />
 
           <TextField
-            name={'confirm_password'}
+            name={"confirm_password"}
             value={form.password}
             onChange={onChange}
-            label={'Confirmar'}
-            variant={'outlined'}
+            label={"Confirmar"}
+            variant={"outlined"}
             fullWidth
-            margin={'normal'}
+            margin={"normal"}
             required
-            type={showPassword ? 'text' : 'password'}
-            placeholder={'Confirme a senha anterior'}
-            inputProps={{ pattern: '^.{6,}' }}
+            type={showPassword ? "text" : "password"}
+            placeholder={"Confirme a senha anterior"}
+            inputProps={{ pattern: "^.{6,}" }}
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
@@ -218,18 +218,18 @@ const SignUpUserPage = () => {
           />
 
           <Button
-            type={'submit'}
+            type={"submit"}
             fullWidth
-            variant={'contained'}
-            color={'primary'}
+            variant={"contained"}
+            color={"primary"}
             padding={10}
             onClick={() => {
-              alert('cadastro efetuado');
+              alert("cadastro efetuado");
               goToJobs(navigate);
             }}
           >
             {isLoading ? (
-              <CircularProgress color={'inherit'} size={24} />
+              <CircularProgress color={"inherit"} size={24} />
             ) : (
               <>Criar</>
             )}

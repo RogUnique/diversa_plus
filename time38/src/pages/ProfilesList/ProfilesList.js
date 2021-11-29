@@ -25,7 +25,7 @@ const ProfilesList = () => {
               <ItemList>
                 <span><Avatar githubHandle="CarlaLima" round="50px"/></span>
                 <span>Carla Lima</span>
-                <span>Area de atuação: Recursos Humanos/span>
+                <span>Area de atuação: Recursos Humanos</span>
                 <span>Contato: carlalimarh@email.com</span>
                 <span>Se identifica com o(s) grupo(s):LGBTQA+, PCD </span>
               </ItemList>

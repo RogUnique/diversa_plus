@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  color: var(--primaryColor)
 `;
 
 export const CardList = styled.ul`
-  margin-top: 45px;
+  margin-top: 35px;
   row-gap: 15px;
   column-gap: 20px;
   max-width: 1200px;
@@ -24,7 +26,7 @@ export const CardList = styled.ul`
 `;
 
 export const Button = styled.button`
-  background: #0c0d0d;
+  background: rgb(0,19,255);
   color: #f5f5f5;
   height: 45px;
   border-radius: 8px;
@@ -44,13 +46,14 @@ export const Button = styled.button`
   }
 `;
 
-export const ItemList = styled.li`
+export const Card = styled.li`
   width: 300px;
   display: flex;
   flex-direction: column;
   background: #fff;
   border-radius: 4px;
   padding: 20px;
+  border: 1 solid ;
 
   strong {
     font-size: 16px;

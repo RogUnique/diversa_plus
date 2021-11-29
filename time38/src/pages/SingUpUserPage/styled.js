@@ -31,3 +31,6 @@ export const ArrowBackContainer = styled.div`
   flex-direction: column; 
 `
 
+export const Select = styled.div`
+  width: 80vw;
+`;
